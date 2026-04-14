@@ -39,3 +39,79 @@ The system:
 ---
 
 ## 📁 Project Structure
+
+
+.
+├── app.py # Main application (chat interface)
+├── utils.py # Embedding + search logic
+├── requirements.txt # Dependencies
+└── README.md
+
+
+---
+
+## ⚙️ Installation
+
+### 1. Clone Repository
+```bash
+git clone https://github.com/your-username/endee-project.git
+cd endee-project
+2. Create Virtual Environment
+python -m venv .venv
+3. Activate Environment
+
+Windows (PowerShell):
+
+.\.venv\Scripts\Activate.ps1
+4. Install Dependencies
+pip install -r requirements.txt
+
+If requirements.txt is missing, install manually:
+
+pip install PyPDF2 sentence-transformers numpy
+▶️ How to Run
+python app.py
+💬 How It Works
+Enter PDF file path
+System reads and processes document
+Data is stored in vector database
+Ask questions in terminal
+Get AI-based answers from document
+🧪 Example Usage
+Enter PDF file path: data/ml_notes.pdf
+
+💬 Ask a question: What is machine learning?
+
+📌 Answer:
+Machine learning is a field of AI that enables systems to learn from data...
+🧠 Technologies Used
+Python
+PyPDF2
+SentenceTransformers
+NumPy
+Cosine Similarity
+Vector Search (Endee-style concept)
+📌 Future Improvements
+Add real Endee vector database integration
+Add FastAPI backend
+Add web UI (React / Streamlit)
+Support multiple file uploads
+Use LLM (OpenAI / Llama) for better answers
+👨‍💻 Author
+
+Built as an AI/ML project using Endee for semantic search and RAG-based question answering.
+
+⭐ Acknowledgement
+Endee Vector Database
+SentenceTransformers
+
+---
+
+# 🚀 WHAT YOU JUST BUILT 
+
+Your project is now:
+
+✔ RAG system  
+✔ Semantic search engine  
+✔ AI document chatbot  
+✔ Uses embeddings + vector search  
